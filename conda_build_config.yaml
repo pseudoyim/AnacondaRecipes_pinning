@@ -37,10 +37,11 @@ fortran_compiler_version:
   - 2019.0.0                     # [win]
   - 2019.0.0                     # [win]
 # matrix on linux, because the ABI breaks at GCC 8
-  - 7.3.0                      # [linux and not s390x]
-  - 8.2.0                      # [linux and not s390x]
-  - 7.5.0                      # [linux and s390x]
-  - 8.4.0                      # [linux and s390x]
+#  - 7.3.0                      # [linux and not s390x]
+#  - 8.2.0                      # [linux and not s390x]
+#  - 7.5.0                      # [linux and s390x]
+#  - 8.4.0                      # [linux and s390x]
+  - 10     # [linux and aarch64]
 m2w64_c_compiler:              # [win]
   - m2w64-toolchain            # [win]
 m2w64_cxx_compiler:            # [win]
@@ -247,3 +248,4 @@ zip_keys:
     - python                    # [win]
     - nodejs                    # [win]
     - geos                      # [win]
+
