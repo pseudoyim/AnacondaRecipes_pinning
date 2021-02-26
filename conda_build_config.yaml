@@ -198,8 +198,8 @@ libprotobuf:
 python:
 #  - 3.6      # [not (s390x or aarch64)]
   - 3.7
-#  - 3.8
-#  - 3.9      # [not aarch64]
+  - 3.8
+  - 3.9
 python_implementation:
   - cpython
 python_impl:
