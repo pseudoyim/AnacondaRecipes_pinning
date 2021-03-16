@@ -16,7 +16,8 @@ boost_cpp:
 bzip2:
   - 1.0
 cairo:
-  - 1.14
+  - 1.14                       # [not (linux and aarch64)]
+  - 1.16                       # [linux and aarch64]
 c_compiler:
   - gcc    # [linux]
   - clang                      # [osx]
