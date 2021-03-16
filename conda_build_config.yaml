@@ -149,8 +149,8 @@ libpng:
 libtiff:
   - 4.1
 libwebp:
-  - 1.0.0   # [not s390x]
-  - 1.2.0   # [s390x]
+  - 1.0.0   # [not (s390x or (linux and aarch64))]
+  - 1.2.0   # [s390x or (linux and aarch64)]
 libxml2:
   - 2.9
 libxslt:
